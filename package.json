@@ -1,9 +1,9 @@
 {
-  "name": "quasar-project",
+  "name": "stok-yonetimi",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
-  "author": "Gold Piedra <info@goldpiedra.com>",
+  "description": "Modern stok yönetim uygulaması",
+  "productName": "Stok Yönetimi",
+  "author": "Yusa Serbet",
   "type": "module",
   "private": true,
   "scripts": {
@@ -15,22 +15,39 @@
     "postinstall": "quasar prepare"
   },
   "dependencies": {
-    "@quasar/extras": "^1.16.4",
+    "@json2csv/plainjs": "^7.0.6",
+    "@quasar/extras": "^1.16.16",
+    "@zxing/library": "^0.21.3",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jspdf": "^2.5.2",
+    "pouchdb": "^9.0.0",
+    "pouchdb-find": "^9.0.0",
     "quasar": "^2.16.0",
+    "register-service-worker": "^1.7.2",
     "vue": "^3.4.18",
-    "vue-router": "^4.0.0"
+    "vue-router": "^4.0.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@quasar/app-vite": "^2.0.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.2",
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
     "globals": "^15.12.0",
-    "vite-plugin-checker": "^0.8.0",
-    "@vue/eslint-config-prettier": "^10.1.0",
+    "postcss": "^8.4.14",
     "prettier": "^3.3.3",
-    "@quasar/app-vite": "^2.0.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "vite-plugin-checker": "^0.8.0",
+    "workbox-build": "^7.3.0",
+    "workbox-cacheable-response": "^7.3.0",
+    "workbox-core": "^7.3.0",
+    "workbox-expiration": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-routing": "^7.3.0",
+    "workbox-strategies": "^7.3.0"
   },
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
